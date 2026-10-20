@@ -301,3 +301,5 @@ These are fine for dev and should be reviewed before production:
 | Apps cannot reach the database after public access is off | Check the private endpoint is `Approved`, the `privatelink.postgres.database.azure.com` zone is linked to the VNet, and the server name resolves to a `10.x.5.x` address |
 | An AI deployment is refused or conflicts | The model or version may not be available to this subscription, region or quota. Check availability, change `ai_deployments`, or re-run apply if it was a conflict between simultaneous deployments |
 | Container App creation fails on a secret | The Key Vault secret doesn't exist yet or RBAC hasn't propagated. Re-run apply |
+#   p r o d g r a d e t e r r a f o r m  
+ 
