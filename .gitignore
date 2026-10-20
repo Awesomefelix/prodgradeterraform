@@ -1,0 +1,8 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+!config/*.tfvars
+secrets.auto.tfvars
+# .terraform.lock.hcl is intentionally committed
